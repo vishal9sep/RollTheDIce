@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#winner {
+    font-size: 50PX;
+}
+#parent {
+    width: 90%;
+    height: 350px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+#parent div {
+    border: 1px solid black;
+    border-radius: 25px;    
+    font-size: 200px;  
+
+}
+#roll {
+    padding: 10px 80px;
+    border-radius: 5px;
+    background: rgb(15, 118, 173);
+    color: aliceblue;
+    font-weight: bolder;
+}
